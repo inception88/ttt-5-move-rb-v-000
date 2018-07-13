@@ -13,5 +13,4 @@ end
 
 def move(array,index,letter = "X")
   array[index] = letter
-  puts array
 end
