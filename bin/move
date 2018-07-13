@@ -9,7 +9,7 @@ move(board,5)
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
-puts input worked
+puts "input worked"
 move(board,input)
-puts move worked
+puts "move worked"
 display_board(board)
